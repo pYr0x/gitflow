@@ -6,4 +6,8 @@
  * Time: 10:32
  */
 
-echo "hello world!";
+if($_GET['world']){
+    echo "hello world!";
+}else{
+    echo "hello there!";
+}
